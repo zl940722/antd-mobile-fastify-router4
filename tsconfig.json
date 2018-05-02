@@ -1,0 +1,63 @@
+{
+    "compileOnSave": true,
+    "compilerOptions": {
+        "outDir": "build",
+        "rootDir": "src",
+        "module": "ESNext",
+        "target": "es5",
+        "moduleResolution": "node",
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "noImplicitAny": false,
+        "sourceMap": true,
+        "strict": true,
+        "strictFunctionTypes": false,
+        "noUnusedLocals": true,
+        "pretty": true,
+        "importHelpers": true,
+        "noEmitHelpers": true,
+        "jsx": "react",
+        "allowSyntheticDefaultImports": true,
+        "lib": [
+            "dom",
+            "es5",
+            "es2015",
+            "es2015.promise",
+            "es2015.collection",
+            "es2017.object"
+        ],
+        "baseUrl": ".",
+        "paths": {
+            "component/*": [
+                "src/client/component/*"
+            ],
+            "util/*": [
+                "src/util/*"
+            ],
+            "model/*": [
+                "src/client/model/*"
+            ],
+            "config/*": [
+                "src/config/*"
+            ],
+            "common/*": [
+                "src/client/page/common/*"
+            ],
+            "api/*": [
+                "src/client/api/*"
+            ],
+            "page/*": [
+                "src/client/page/*"
+            ]
+        }
+    },
+    "include": [
+        "src/"
+    ],
+    "exclude": [
+        "node_modules",
+        "build",
+        "config",
+        "swagger"
+    ]
+}

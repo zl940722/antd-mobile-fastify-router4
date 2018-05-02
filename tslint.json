@@ -1,0 +1,59 @@
+{
+    "root": true,
+    "extends": [
+        "tslint:latest",
+        "tslint-react",
+        "tslint-config-prettier"
+    ],
+    "rules": {
+        "prefer-object-spread": false,
+        "jsx-wrap-multiline": false,
+        "ordered-imports": false,
+        "eofline": false,
+        "no-console": false,
+        "object-literal-shorthand": false,
+        "no-implicit-dependencies": false,
+        "no-shadowed-variable": false,
+        "no-var-requires": false,
+        "quotemark": [
+            "single"
+        ],
+        "arrow-parens": false,
+        "ban-types": false,
+        "forin": false,
+        "interface-name": [
+            false
+        ],
+        "jsdoc-format": false,
+        "max-classes-per-file": [
+            true
+        ],
+        "max-line-length": [
+            false
+        ],
+        "no-submodule-imports": false,
+        "member-access": false,
+        "member-ordering": [ false ],
+        "no-bitwise": false,
+        "no-conditional-assignment": false,
+        "no-debugger": false,
+        "no-empty": true,
+        "no-namespace": false,
+        "no-unused-expression": true,
+        "jsx-no-lambda": false,
+        "object-literal-sort-keys": false,
+        "one-variable-per-declaration": [
+            true,
+            "ignore-for-loop"
+        ],
+        "only-arrow-functions": [
+            false
+        ],
+        "prefer-const": true,
+        "prefer-for-of": false,
+        "trailing-comma": [
+            true
+        ],
+        "variable-name": false
+    }
+}

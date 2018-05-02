@@ -1,0 +1,9 @@
+diff a/src/app/page/main/index.hbs b/src/app/page/main/index.hbs	(rejected hunks)
+@@ -19,7 +19,6 @@
+ <script src="//static-qa.baiwandian.cn/static/js/react/15.6.1/react-dom.min.js"></script>
+ <script src="//static-qa.baiwandian.cn/static/js/mobx/3.2.0/mobx.umd.min.js"></script>
+ <script src="//static-qa.baiwandian.cn/static/js/mobx-react/4.2.2/index.min.js"></script>
+-<script src="https://cdn.bootcss.com/antd/3.0.0-alpha0/antd.min.js"></script>
+ <script src="https://cdn.bootcss.com/antd/2.13.5/antd.min.js"></script>
+ <script src="https://cdn.bootcss.com/rxjs/6.0.0-alpha.0/Rx.min.js"></script>
+ </body>
