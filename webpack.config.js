@@ -43,6 +43,7 @@ module.exports = {
             "api": path.join(client, "api"),
             "util": path.join(src, "util"),
             "model": path.join(client, "model"),
+            "resource": path.join(client, "resource"),
             "config": path.join(src, "config"),
             "component": path.join(client, "component")
         },

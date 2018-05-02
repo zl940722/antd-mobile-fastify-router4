@@ -24,12 +24,12 @@ export default class Main extends Component<{ mainStore: MainStore }, any> {
             {[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15].map((i, index) => {
                 if (index === 0) {
                     return (<List.Item key={index}
-                                       thumb={require('./resource/img.jpg')}
+                                       thumb={require('resource/img.jpg')}
                                        multipleLine={true}
                     >沙僧</List.Item>);
                 }
                 return (<List.Item key={index}
-                                   thumb={require('./resource/img.jpg')}
+                                   thumb={require('resource/img.jpg')}
                 >沙僧{index}</List.Item>);
             })}
         </List>);
